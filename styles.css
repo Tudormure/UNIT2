@@ -1,0 +1,117 @@
+.heading {
+  font-family: Arial Black;
+  background-color: rgb(124, 124, 124);
+  color: rgb(177, 177, 177);
+  font-size: 30px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.container-tot {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.email {
+  text-align: right;
+  margin-top: -40px;
+  color: grey;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+a {
+  color: grey;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+.container-titlu-specs {
+  color: rgb(133, 130, 130);
+  text-decoration: underline;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+table,
+th,
+td {
+  border-style: solid;
+  border-color: grey;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.tabel {
+  margin-right: 10px;
+  margin-left: auto;
+  display: block;
+}
+.container-gri {
+  background-color: rgb(219, 219, 219);
+  margin-top: 15px;
+  border-style: solid;
+  border-color: rgb(139, 139, 139);
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+.poza {
+  margin-right: 10px;
+  margin-left: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius:10px;
+  opacity: 90%;
+}
+.container-titlu-retea {
+  color: rgb(133, 130, 130);
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.listitem {
+     text-align: center;
+}
+.slideshow{
+    background-color: rgb(59, 59, 207);
+    height:200px;
+    width:90%;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    justify-content: space-around;
+
+}
+.poza2{
+    height : 70%;
+    margin-top:30px;
+    border-radius: 5px;
+}
+.slide {
+  display: none;
+  width: 100%;
+}
+.dispare{
+  width:  0;
+  height: 0;
+}
+.slideshow2{
+  background-color: rgb(59, 59, 207);
+
+  width:90%;
+  display:flex;
+  margin-right:auto;
+  margin-left:auto;
+  justify-content: space-around;
+
+}
